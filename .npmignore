@@ -1,6 +1,7 @@
 .nyc_output/
 coverage/
 test/
+tools/
 .travis.yml
 appveyor.yml
 lib/**/__tests__/
