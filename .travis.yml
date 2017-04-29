@@ -10,6 +10,7 @@ matrix:
     - node_js: "7"
       env: TEST_SUITE=lint
 env:
+  - TEST_SUITE=lint-md
   - TEST_SUITE=unit
 script: npm run-script $TEST_SUITE
 after_success:
